@@ -1,5 +1,8 @@
 body {
-    margin: 0;
+    margin-top: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input[type="button"] {
@@ -46,4 +49,31 @@ input[type="button"] {
     color: cornflowerblue;
     border: 2px solid;
     border-radius: 7px;
+}
+
+
+.card-container {
+    margin: 15px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(109, 108, 108, 0.8), 0 4px 3px 0 rgba(228, 228, 228, 0.4);
+    transition-duration: 0.4s;
+    transform: scaleY(1.04) scaleX(1.02);
+}
+
+.bg-container {
+    background-color: rgb(200, 161, 113);
+    height: 350px;
+}
+
+.info-container {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100px;
 }

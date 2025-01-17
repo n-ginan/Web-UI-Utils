@@ -20,7 +20,7 @@ input[type="button"] {
     gap: 15px;
 }
 
-.zoom-in-out {
+.primary-zoom-in-out {
     height: 50px;
     background-color: cornflowerblue;
     color: aliceblue;
@@ -28,14 +28,22 @@ input[type="button"] {
     border-radius: 7px;
 }
 
-.zoom-in-out:hover {
+.primary-zoom-in-out:hover, .secondary-zoom-in-out:hover {
     font-size: 14px;
     box-shadow: 0 2px 4px 0 rgba(109, 108, 108, 0.8), 0 4px 3px 0 rgba(228, 228, 228, 0.4);
     transition-duration: 0.4s;
 }
 
-.zoom-in-out:active {
+.primary-zoom-in-out:active, .secondary-zoom-in-out:active {
     box-shadow: none;
     transition-duration: 0.2s;
     font-size: 13px;
+}
+
+.secondary-zoom-in-out {
+    height: 50px;
+    background-color: rgb(247, 251, 255);
+    color: cornflowerblue;
+    border: 2px solid;
+    border-radius: 7px;
 }

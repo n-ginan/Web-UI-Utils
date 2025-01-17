@@ -5,14 +5,15 @@ body {
 input[type="button"] {
     cursor: pointer;
     margin: 10px;
-    max-width: 190px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 200px;
+    font-family: 'Trebuchet MS';
     font-size: 13px;
+    font-weight: 700;
 }
 
 .button-section {
     background-color: bisque;
-    width: 210px;
+    width: 220px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -21,4 +22,20 @@ input[type="button"] {
 
 .zoom-in-out {
     height: 50px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+.zoom-in-out:hover {
+    font-size: 14px;
+    box-shadow: 0 2px 4px 0 rgba(109, 108, 108, 0.8), 0 4px 3px 0 rgba(228, 228, 228, 0.4);
+    transition-duration: 0.4s;
+}
+
+.zoom-in-out:active {
+    box-shadow: none;
+    transition-duration: 0.2s;
+    font-size: 13px;
 }

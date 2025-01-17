@@ -1,3 +1,24 @@
 body {
     margin: 0;
 }
+
+input[type="button"] {
+    cursor: pointer;
+    margin: 10px;
+    max-width: 190px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.button-section {
+    background-color: bisque;
+    width: 210px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.zoom-in-out {
+    height: 50px;
+}

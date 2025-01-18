@@ -90,11 +90,44 @@ input[type="button"] {
 
 .hidden-statement {
     opacity: 0;
+    visibility: hidden;
     transition: opacity 0.1s ease-in-out;
 }
 
 .hidden-statement.visible {
     opacity: 1;
+    visibility: visible;
     transition: opacity 0.4s ease-in-out;
     transition-delay: 0.175s;
+}
+
+.custom-select {
+    background-color: bisque;
+    width: 300px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selected {
+    height: 35px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.options {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 5px;
+}
+
+.options li {
+  padding: 5px;
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
 }

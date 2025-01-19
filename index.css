@@ -107,6 +107,8 @@ input[type="button"] {
     max-width: 350px;
     display: flex;
     flex-direction: column;
+    gap: 0px;
+    padding: 0px;
 }
 
 .selected {
@@ -126,8 +128,13 @@ input[type="button"] {
 }
 
 .options li {
-  padding: 5px;
   background-color: bisque;
+  height: 40px;
   color: black;
   cursor: pointer;
+  border-bottom: 1px solid blueviolet;
+}
+
+.options li:hover {
+    background-color: rgb(141, 141, 141);
 }
